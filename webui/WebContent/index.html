@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Smart Water Meter</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600&amp;subset=latin-ext" rel="stylesheet">
+
+        <!-- CSS -->
+        <link href="assets/css/main.css" rel="stylesheet">
+        <link href="assets/css/elements.css" rel="stylesheet">
+    
+        
+
+        <!-- JS -->
+        <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
+        <script src="assets/js/vendor/jquery-1.12.0.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+		<script src="https://code.highcharts.com/stock/highstock.js"></script>
+		<script src="https://code.highcharts.com/highcharts-3d.js"></script>
+		<script src="https://code.highcharts.com/stock/modules/exporting.js"></script>
+		<script src="https://code.highcharts.com/modules/drilldown.js"></script>
+        
+        
+
+    </head>
+    <body>
+        <div class="site" id="page">
+            <a class="skip-link sr-only" href="#main">Skip to content</a>
+
+            <!-- Options headline effects: .rotate | .slide | .zoom | .push | .clip -->
+            <section class="hero-section hero-section--image clearfix clip">
+                <div class="hero-section__wrap">
+                    <div class="hero-section__option">
+                        <img src="assets/images/swm_bg.jpg" alt="Hero section image">
+                    </div>
+                    <!-- .hero-section__option -->
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="offset-lg-2 col-lg-8">
+                                <div class="title-01 title-01--11 text-center">
+                                    <h2 class="title__heading">
+                                        <span> </span>
+                                        <strong class="hero-section__words">
+                                            <span class="title__effect is-visible">Welcome To</span>
+                                            <span class="title__effect">Smart Water Meter</span>
+                                            <span class="title__effect">Using oneM2M</span>
+                                            <span class="title__effect">Platform</span>
+                                        </strong>
+                                    </h2>
+                                    <div class="title__description">Delivering reliable data about water consumption with higher accuracy!</div>
+
+                                    <!-- Options btn color: .btn-success | .btn-info | .btn-warning | .btn-danger | .btn-primary -->
+                                    <div class="title__action"><a href="graph.jsp"><btn_new>Check Water Flow Rate</btn_new></a></div>
+                                </div> <!-- .title-01 -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        
+		
+		<div id="abc">
+		<!-- Popup Div Starts Here -->
+		<div id="popupContact">
+		<!-- Contact Us Form -->
+		<img id="close" src="assets/images/icons8-delete-48.png" onclick ="div_hide()"> 
+		
+		<div id="hh2">
+		About Smart Water Meter
+		</div>
+		
+		<hr>
+		
+		<div id="para">
+		<p>
+		Freshwater is the most fundamental of finite natural resources. Difficult to purify, expensive to transport and impossible to substitute, 
+		water is essential to food production, to economic development and to life itself. In this context water management has become one of the most controversial 
+		issues in the world. Measuring water consumption is considered a serious matter in order to control and manage the resources of water and revenue as well. 
+		</p>
+		
+		<p>
+		A water meter is a device used to measure the amount of water consumed in a building.  A "smart" water meter is a measuring device that has the ability 
+		to store and transmit consumption data frequently.  Sometimes "smart" meters are referred to as "time-of-use" meters because in addition to measuring the volume consumed, 
+		they also record the date and time the consumption occurs. Traditional water meters are read monthly or bi-monthly by a person and a water bill is generated from this manual 
+		reading of the meter.  "Smart" meters can be read remotely and more frequently, providing instant access to water consumption information for both customers and 
+		water utilities.  "Smart" water meters are one component of an automated meter infrastructure (AMI) system that water utilities may choose to deploy.  The simple 
+		graphic below shows how an AMI system transmits information and data in two directions - both to and from the customer and the water utility.
+		</p>
+		
+		
+		</div>
+		</div>
+		<!-- Popup Div Ends Here -->
+		</div>
+		
+		<div id="container" style="min-width: 310px; height: 400px; margin: 0 auto; display: none; position: fixed; z-index: 1200;"></div>
+
+        <div class="button-group">
+        	<a class="new_btn btn  btn-outline-success button-sm" id="popup" onclick="div_show()">About SWM</a>
+        	<a href="assets/Block Diagram- WMS.pdf" target="_blank" class="btn new_btn btn-outline-success button-sm">Schematic Diagram</a>
+            <!-- <a href="" class="btn new_btn btn-outline-success button-sm">Motor Status</a> -->
+            <a href="" class="btn new_btn btn-outline-success button-sm">ADD EXTRA METER</a>
+            <a href="graph.jsp" class="btn new_btn btn-outline-success button-sm" >Graph</a>
+        </div>
+
+        <!-- JS -->
+        <script src="assets/js/plugins/animate-headline.js"></script>
+        <script src="assets/js/plugins/chart.js"></script>
+        <script src="assets/js/plugins/my_js.js"></script>
+        <script src="assets/js/main.js"></script>
+         
+    </body>
+</html>

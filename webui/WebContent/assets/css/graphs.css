@@ -1,0 +1,133 @@
+@CHARSET "ISO-8859-1";
+
+
+.button1 {
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #47C4F3;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 9px #999;
+}
+
+.button1:hover {background-color: #3e8e41}
+
+.button1:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#toggles
+{
+position:fixed;
+margin-top: 160px;	
+margin-left: 720px;
+text-shadow: black;
+text-transform: capitalize;
+font-style: italic;
+font-family: "Comic Sans MS", cursive, sans-serif;
+font-size: x-large;
+color: black;
+align: right;
+}
+
+#waterflowGraph {
+position:fixed;
+top:0;
+bottom:0;
+left:0;
+right:0;	
+padding-top: 300px;	
+margin-left: 100px;
+height: 50%;
+width: 85%;
+text-align: center;
+position:fixed;
+overflow:auto;
+}
+
+#t1{
+	text-align: right;
+	text-decoration: blink;
+	margin-top: -15px;
+	margin-right: 15px;
+	text-shadow: black;
+	text-transform: capitalize;
+	font-style: italic;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: large;
+	color: black;
+	
+}
+
+
+.text1{
+	
+	text-shadow: black;
+	text-transform: capitalize;
+	font-style: italic;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: x-large;
+	color: aqua;
+	
+}
+
+
+#flowrate1{
+margin-top: 10px;
+margin-left: 80px;
+width: 250px;
+height: 200px;   
+background: #47C4F3;
+background-image: linear-gradient(to top left, #219C9B, white);
+
+border-radius: 25px;	
+box-shadow: 10px 10px 5px grey;
+float: left;
+}
+
+#flowrate2{
+
+margin-top: 10px;
+width: 250px;
+height: 200px;
+background: #47C4F3;
+background-image: linear-gradient(to top left, #700E80 , white);
+border-radius: 25px;	
+box-shadow: 10px 10px 5px grey;
+margin-left: 50px;
+float: left;
+}
+
+#flowrate3{
+
+margin-top: 10px;
+width: 250px;
+height: 200px;
+background: #47C4F3;
+background-image: linear-gradient(to top left, #874005, white);
+border-radius: 25px;	
+box-shadow: 10px 10px 5px grey;
+margin-left: 50px;
+float: left;
+}
+
+#flowrate4{
+
+margin-top: 10px;
+width: 250px;
+height: 200px;
+background: #47C4F3;
+background-image: linear-gradient(to top left, #085610, white);
+border-radius: 25px;	
+box-shadow: 10px 10px 5px grey;
+margin-left: 50px;
+float: left;
+}
+
